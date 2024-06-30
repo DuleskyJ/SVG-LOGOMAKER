@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
-import { Triangle, Circle, Square } from './lib/shapes.mjs';
+import { Triangle, Circle, Square } from './lib/shapes.js';
 
 console.log('Script started');  // Debug line
 
