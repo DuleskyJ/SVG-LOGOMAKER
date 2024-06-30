@@ -1,12 +1,11 @@
-SVG Logo Maker
+## SVG Logo Maker
 Description
 The SVG Logo Maker is a Node.js command-line application that generates a logo in SVG format based on user inputs. The application prompts the user to enter text for the logo, select a color for the text and shape, choose a shape from a list, and specify the font size and font family for the text. The generated SVG file can then be viewed in a web browser.
 
-Walkthrough Video
-Link to walkthrough video
+## Walkthrough Video
+https://www.loom.com/share/f02b22e6d4ce4621b9267ff28bbc0082?sid=ddd5e18c-67ac-4191-88ca-adbf35d23af8 
 
-
-Table of Contents
+## Table of Contents:
 Installation
 Usage
 Examples
@@ -14,21 +13,24 @@ Testing
 Contributing
 License
 Installation
-Clone the repository:
+To install and set up the SVG Logo Maker on your local machine, follow these steps:
 
-Copy code below into git bash where you want to clone this repository
-git clone https://github.com/your-username/https://github.com/DuleskyJ/SVG-LOGOMAKER.git
-Do cd SVG-LOGOMAKER
+## Clone the repository:
 
-Install dependencies:
+Copy the code below into your terminal to clone this repository:
+
+git clone https://github.com/DuleskyJ/SVG-LOGOMAKER.git
+cd SVG-LOGOMAKER or what you have that directory named as!
+
+## Install dependencies:
 
 npm install
 
-Run the application:
+To use the SVG Logo Maker, follow these steps:
 
 node index.mjs
 
-Follow the prompts:
+## Follow the prompts:
 
 Enter text for the logo (up to 3 characters).
 Enter the text color (keyword, hexadecimal, rgb, rgba, hsl, hsla).
@@ -40,34 +42,41 @@ View the generated SVG file:
 
 The file logo.svg will be created in the project directory.
 Open logo.svg in a web browser to view the logo.
-Examples
-Example of generated SVG files can be found in the examples directory.
 
-Testing
-Run the tests:
+## Testing
+To ensure the correctness of the shape classes and the application, run the following command:
 
 npm test
 The tests verify that the Triangle, Circle, and Square classes generate the correct SVG strings.
 
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+## Fork the repository:
 
-License
-This project is licensed under the MIT License.
+Click the "Fork" button at the top right of the repository page.
 
-Additional Information
-File Structure:
+Clone the forked repository:
 
-svg-logo-maker/
-├── examples/
-├── lib/
-│   ├── shapes.mjs
-│   ├── shapes.test.js
-├── .gitignore
-├── index.mjs
-├── package.json
-└── README.md
-Dependencies:
+git clone https://github.com/your-username/svg-logomaker.git
+cd svg-logomaker
 
-Inquirer - Used for collecting user input.
-Jest - Used for unit testing.
+Create a new branch:
+
+git checkout -b feature-branch
+
+Make your changes and commit them:
+
+git commit -m "Description of your changes"
+
+Push to the branch:
+
+git push origin feature-branch
+
+Create a pull request:
+
+Go to the original repository on GitHub and create a pull request from your fork.
+
+## License
+This project is licensed under the MIT License. 
+
+## Dependencies:
+Inquirer: Used for collecting user input.
+Jest: Used for unit testing.
