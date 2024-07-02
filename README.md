@@ -55,7 +55,7 @@ Click the "Fork" button at the top right of the repository page.
 
 Clone the forked repository:
 
-git clone https://github.com/your-username/svg-logomaker.git
+git clone https://github.com/DuleskyJ/svg-logomaker.git
 cd svg-logomaker
 
 Create a new branch:
